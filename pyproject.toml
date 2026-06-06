@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "004-long-text-summarizer"
+version = "0.1.0"
+description = "Basic LLM project with dummy UI that will convert long text into summaries"
+authors = ["Dev-Ayush-Stack <dev.ayushpandey.0@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.11.4"
+streamlit = "^1.58.0"
+langchain = "0.2.11"
+langchain-openai = "0.1.19"
+ipykernel = "^7.2.0"
+python-dotenv = "^1.2.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
